@@ -6,21 +6,43 @@ const Services = () => {
         <p className="text-[30px] font-bold">Quality Services</p>
       </div>
 
-      <div className="grid grid-cols-3 gap-4 mt-20">
-        <div className=" ml-[250px]  h-[200px] w-[200px] bg-black text-white"><i class="fa-regular fa-lightbulb"></i>
-          <p>Creative Design</p>
-          <p>Web design is a similar process of creation, with the intention of presenting...</p>
+      <div className="lg:grid grid-cols-3 ">
+        <div className=" lg:w-[350px] overflow-hidden shadow-xl  mt-5 lg:ml-[250px] h-[400px] lg:max-w-[350px] mr-10 ml-10 ">
+          <div className="text-[#e65f78] text-[40px] font-bold pt-5 pl-14"><i class="fa-regular fa-lightbulb"></i></div>
+          <p className="pl-16 pt-3 text-[18px]">Creative Design</p>
+          <p className="pl-10 pr-10 text-[16px] pt-3 text-justify">I'm aways wiling to try new things.I love depicting my imagination within my artwork and working with others to create one-of-a kind artwork. </p>
         </div>
-        <div className=" h-[200px] w-[200px] bg-black text-white">2</div>
-        <div className="h-[200px] w-[200px] bg-black text-white">3</div>
-        <div className=" ml-[250px] mt-10 h-[200px] w-[200px] bg-black text-white">4</div>
-        <div className="h-[200px] w-[200px] mt-10 bg-black text-white">5</div>
-        <div className="h-[200px] w-[200px] mt-10 bg-black text-white">6</div>
 
+        <div className=" lg:w-[350px] shadow-xl  mt-5 lg:ml-[150px] h-[400px] lg:max-w-[320px]  mr-10 ml-10">
+          <div className="text-[#e65f78] text-[40px] font-bold pt-5 pl-14"><i class="fa-solid fa-laptop-code"></i></div>
+          <p className="pl-16 pt-3 text-[18px]">Creative Design</p>
+          <p className="pl-10 pr-10 text-[16px] pt-3 text-justify">I’m a web developer. I spend my whole day, practically every day, experimenting with HTML, CSS , Tailwind CSS,JavaScript and React Js dabbling with Express JS and Node Js; and inhaling a wide variety of potentially useless information through a few hundred RSS feeds. I build websites that delight and inform. I do it well. </p>
+        </div>
+
+        <div className=" lg:w-[320px] shadow-xl  mt-10  lg:ml-[50px] h-[280px] lg:max-w-[320px] mr-10 ml-10">
+          <div className="text-[#e65f78] text-[40px] font-bold pt-5 pl-14"><i class="fa-regular fa-paper-plane"></i></div>
+          <p className="pl-16 pt-3 text-[18px]">Creative Design</p>
+          <p className="pl-10 pr-10 text-[16px] pt-3 text-justify">I'm aways wiling to try new things.I love depicting my imagination within my artwork and working with others to create one-of-a kind artwork. </p>
+        </div>
+
+        <div className="  lg:w-[320px] overflow-hidden shadow-xl  mt-5 lg:ml-[250px]  h-[280px] lg-max-w-[320px] mr-10 ml-10 ">
+          <div className="text-[#e65f78] text-[40px] font-bold pt-5 pl-14"><i class="fa-regular fa-lightbulb"></i></div>
+          <p className="pl-16 pt-3 text-[18px]">Creative Design</p>
+          <p className="pl-10 pr-10 text-[16px] pt-3 text-justify">I'm aways wiling to try new things.I love depicting my imagination within my artwork and working with others to create one-of-a kind artwork. </p>
+        </div>
+
+        <div className=" lg:w-[320px] shadow-xl  mt-5 lg:ml-[150px]  h-[280px] lg:max-w-[320px] mr-10 ml-10">
+          <div className="text-[#e65f78] text-[40px] font-bold pt-5 pl-14"><i class="fa-regular fa-lightbulb"></i></div>
+          <p className="pl-16 pt-3 text-[18px]">Creative Design</p>
+          <p className="pl-10 pr-10 text-[16px] pt-3 text-justify">I'm aways wiling to try new things.I love depicting my imagination within my artwork and working with others to create one-of-a kind artwork. </p>
+        </div>
+
+        <div className=" lg:w-[320px] shadow-xl  mt-5 lg:ml-[50px]   h-[280px] lg:max-w-[320px] mr-10 ml-10">
+          <div className="text-[#e65f78] text-[40px] font-bold pt-5 pl-14"><i class="fa-regular fa-lightbulb"></i></div>
+          <p className="pl-16 pt-3 text-[18px]">Creative Design</p>
+          <p className="pl-10 pr-10 text-[16px] pt-3 text-justify">I'm aways wiling to try new things.I love depicting my imagination within my artwork and working with others to create one-of-a kind artwork. </p>
+        </div>
       </div>
-
-
-
 
 
 

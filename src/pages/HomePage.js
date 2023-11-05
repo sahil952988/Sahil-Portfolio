@@ -1,5 +1,8 @@
 import About from "./About";
+import Contact from "./Contact";
 import NavPage from "./NavPage";
+import Portfolio from "./Portfolio";
+import Services from "./Services";
 
 
 const HomePage = () => {
@@ -32,6 +35,9 @@ const HomePage = () => {
       </div>
 
       <About />
+      <Services />
+      <Portfolio />
+      <Contact />
 
 
 
