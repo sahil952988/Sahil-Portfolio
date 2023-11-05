@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fa-staylinked {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 50px;
+}
+
+.fa-envelope,
+.fa-gift,
+.fa-location-dot,
+.fa-location-dot,
+.fa-calendar-days,
+.fa-gamepad,
+.fa-phone,
+.fa-graduation-cap,
+.fa-book {
+  color: #e65f78;
+}
